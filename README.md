@@ -1,7 +1,7 @@
 # Pixel Art Maker Project
 
 ## Overview
-A introductory project in a Udacity programming bootcamp co-created by Google and Facebook. I built the app with vanilla HTML, CSS, and JS. 
+An introductory project in a Udacity programming bootcamp co-created by Google and Facebook. I built the app with vanilla HTML, CSS, and JS. 
 
 A summary of the project specification/rubric is listed below but the app actually has a few additional features.
 
