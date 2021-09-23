@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Pixel Art Maker</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <section class="hero-content">
+
+      <h1>PIXEL ART MAKER</h1>
+
+      <form id="size-picker" class="flex-parent">
+        <div>
+          <label for="inputHeight">Rows:</label><br>
+          <input type="number" id="inputHeight" name="height" min="1" max="100" value="50">
+        </div>
+        <div>
+          <label for="inputWidth">Columns:</label><br>
+          <input type="number" id="inputWidth" name="width" min="1" max="100" value="50"><br>
+        </div>
+        <div>
+          <label for="color">Color:</label><br>
+          <input type="color" id="color-picker" value="#5eb3ce">
+        </div>
+        <input type="submit" value="Create Canvas" class="button">
+        <input type="button" value="Fill Canvas w/ Selected Color" class="button" id="fill-button">
+        <input type="button" value="Erase All Colors" class="button" id="erase-button">
+        <input type="button" value="Reset Canvas" class="button" id="reset-button">
+      </form>
+
+    </section>
+
+    <section>
+      <h2>Design Canvas</h2>
+      <table id="pixel-canvas"></table>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
