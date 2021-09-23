@@ -1,7 +1,7 @@
 # Pixel Art Maker Project
 
 ## Overview
-A introductory project in a Udacity programming bootcamp co-created by Google and Facebook. Built with vanilla HTML, CSS, and JS. 
+A introductory project in a Udacity programming bootcamp co-created by Google and Facebook. I built the app with vanilla HTML, CSS, and JS. 
 
 A summary of the project specification/rubric is listed below but the app actually has a few additional features.
 
@@ -13,3 +13,5 @@ A summary of the project specification/rubric is listed below but the app actual
 * Event listeners are properly added to the grid squares (and not to the border or the table itself).
 * The user can reset the grid to a blank state.
 * If there are already colored squares in the grid, clicking the Submit button clears them out.
+
+Full rubric can be found here: https://review.udacity.com/#!/rubrics/1957/view
