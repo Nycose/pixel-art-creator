@@ -7,7 +7,8 @@ const colorPicker = document.getElementById('color-picker');
 
 /* Creates a table based on canvas size user has entered */
 function makeGrid(event) {
-  const height = document.getElementById('inputHeight').value; // stores the current height and width in the size picker fields
+  // stores the current height and width in the size picker fields
+  const height = document.getElementById('inputHeight').value;
   const width = document.getElementById('inputWidth').value;
 
   while (pixelCanvas.firstChild != null) { // clears canvas
@@ -54,7 +55,7 @@ resetCanvasButton.addEventListener('click', function() {
   pixelCanvas.innerHTML = "";
   document.getElementById('inputHeight').value = 50;
   document.getElementById('inputWidth').value = 50;
-  colorPicker.value = "#5eb3ce";
+  colorPicker.value = "#3399ff";
 });
 
 // Change bg color of the specific <td> that's clicked
