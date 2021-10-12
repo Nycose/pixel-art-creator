@@ -14,4 +14,3 @@ A summary of the project specification/rubric is listed below but the app actual
 * The user can reset the grid to a blank state.
 * If there are already colored squares in the grid, clicking the Submit button clears them out.
 
-Full rubric can be found here: https://review.udacity.com/#!/rubrics/1957/view
